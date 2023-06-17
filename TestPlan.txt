@@ -1,0 +1,163 @@
+TestPlan:-->
+	=> Test lead design TestPlan by follow test strategy document
+	=> It work like guideline document to testing team
+	=> Testing team can understand below things from test plan
+
+		Who to test ?     
+		When to test ?
+		Where to test ?
+		what to test ?	
+
+	What are the test plan items ?
+
+	1. TestPlan ID
+		Unique Reference number for TestPlan ID.		
+		
+	2. Project Overview:-->
+		Importance of project and quick overview of project.
+		
+	
+	3. Test items: 
+		The names of all Testings need to perform on current build
+		
+		Example:-->
+		=> [System Testing, API testing, DB-Testing ---etc]
+	
+
+	4.Scope :-->Feature to be tested: 
+	The names of requirements or functionality to be test.
+	
+	Example:-->
+	=> Admin Module [Creation, Updation, Delection]
+
+
+	5.OutScope:--> Feature not to be tested: 
+	
+	=> The names of tested requirements
+	=> The names of requirements part of other team members
+	=> The names of testings optional under current release
+	[Performance Testing, UnitTesting, Integation Testing  --etc]
+
+
+
+  	6.Candidates list:-->
+		The names of the users who is responsible to perform testing
+		=> The names of the users and their roles  and 					responsibilities.
+
+
+ 	7. Test environment: 
+		Required H/w and S/w to use in testing.  
+	[Browser Name &  Browser version  &  Operating system]
+	[Testenvironment will be setup before start system testing]
+
+	8.Entry criteria: 
+		[To start test execution]
+ 	Test cases prepared and reviewed after training sessions.
+	Real test data received from client
+	Test environment established by H/w team (computers S/w & H/w).
+ 	Received s/w build from developers.
+
+	9.Suspension criteria: 
+	[To interrupt test execution]
+	Test environment Problems (H/w problem)
+	Software is not working.
+	More defects are in pending by developers.
+
+	10.Resumption criteria:-->
+	[When to resume suspended execution]
+	After Environment Problemes fixed
+	Previously reported defects has been fixed
+	
+	11.Exit criteria: 
+	(To stop test execution)
+	All requirement in s/w are tested
+	Test duration exceeded
+	95% testcase passed
+ 	All major defects should be re-solved
+	[Take screenshot of each test pass/fail]
+
+	12.Test deliverables: 
+	The list of testing documents to be prepared by 
+	test engineer for future reference 
+	[Test scenarios, test cases, test logs, defect reports....]
+	[Daily Status Reports, Weekly Status Reports, MOM reports]
+
+
+	13.Resource Training: 
+	The names of selected test engineers for the 
+	corresponding project testing and required no. 
+	Of training sessions for them to understand 
+	customers requirements.
+
+
+	14. Approach:-->
+		Overall approach testing team need to follow
+
+		=> Understand Client Requirements and attend KT session
+		=> Identify Test scenarios 
+		=> Write testcases in TestRail Management tool
+		=> Run Testcase using TestRail Management tool
+		=> Report a defect using Jira tool and track defects
+		=> Prepare execution status report in daily basis
+		=> Every day take testcase backup to excel or google sheets
+
+
+	15.Risks & Assumptions:
+
+	assumptions: The previously analyzed list of risks 
+	and solutions to overcome.
+	
+	What if time is exceeded?
+	Perform Informal testings [Adhoc Testing]
+
+	What if client not specified requirement?
+	Perform exploraroty testing 
+
+
+	Ques:--> Do you have experience in test plan developement
+	 No, [It is a test lead job]
+	 But i know what testplan contains..
+
+
+	Que:--> Do you involve in test plan?
+	Yes, I followed Testplan to Condcut Software Testing
+
+
+	Que:--> What test plan contains
+
+		InScope   [Features to be tested]
+		OutScope  [Features already tested or Not part of your role]
+		Team MileStones
+		Build Schedules and DaytoDay schedules
+		Test delivarables
+		Candidate list
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
